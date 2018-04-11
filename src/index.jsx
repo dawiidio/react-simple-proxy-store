@@ -60,6 +60,14 @@ export const connect = (select = []) => Cmp => (props = {}) => {
   )
 };
 
+export const Connect = ({select, children}) => {
+  return (
+    <Consumer select={select}>
+      {({ store }) => children(store)}
+    </Consumer>
+  )
+};
+
 export const createProvider = store => {
   class StoreProvider extends Component {
     componentDidMount(){

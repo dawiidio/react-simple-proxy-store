@@ -1,6 +1,6 @@
 {
   "name": "react-simple-proxy-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple js store created with proxy objects - react integration",
   "main": "./lib/index.js",
   "author": "Dawid Wojda <dawiidio@gmail.com>",
